@@ -1,23 +1,15 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<?php include('./allsections.php') ?>
+<?php echo $head_section; ?>
 
 <body>
-	<div id="header">
-		<h1>My Website</h1>
-	</div>
-	<div id="navigation">
-		<ul>
-			<li><a href="section1.php">Section 1</a></li>
-			<li><a href="section2.php">Section 2</a></li>
-			<li><a href="section3.php">Section 3</a></li>
-			<li><a href="section4.php">Section 4</a></li>
-			<li><a href="#">Coming Soon</a></li>
-		</ul>
-	</div>
-	<div id="content">
-		Welcome! Choose a section on the menu...
-	</div>
-	
-	<?php include('footer.php');?>
-</body>
 
+<?php echo $body; ?>
+<?php echo $content; ?>
+<?php echo $footer; ?>
+
+</body>
 </html>
