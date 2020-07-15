@@ -1,0 +1,23 @@
+{
+  "name": "en-courage",
+  "version": "1.0.0",
+  "description": "エンカレッジの技術講座でやったことをポイってする予定",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kota-hasumi1227/en-courage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kota-hasumi1227/en-courage/issues"
+  },
+  "homepage": "https://github.com/kota-hasumi1227/en-courage#readme"
+}
